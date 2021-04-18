@@ -5,17 +5,17 @@ Använd citattecken för att lägga in tecken som data.
 */
 
 
-var name = //ditt namn som en string;
-var age = //din ålder som en siffra;
-var height = //din längd som en siffta i cm;
-var weight = //din vikt som en siffra i kg;
-var eyes = //färgen på dina ögon som en string;
-var hair = //färgen på ditt hår som en string;
+var namn = "Hao"; //ditt namn som en string;
+var age = 38; //din ålder som en siffra;
+var height = 155; //din längd som en siffta i cm;
+var weight = 45; //din vikt som en siffra i kg;
+var eyes = "mörkbrun"; //färgen på dina ögon som en string;
+var hair = "svart"; //färgen på ditt hår som en string;
   
-console.log("Det här är " + /*Skriv variabel*/ + ".");
-console.log(/*Skriv variabel*/ + " är " + /*Skriv variabel*/ + " år");
-console.log(/*skriv variabel */ + " är " + /*skriv variabel*/ + "cm lång." );
-console.log(/*skriv variabel */ + " väger " + /*skriv variabel*/ + "kg." );
-console.log(/*skriv variabel */ + " har " + /*skriv variabel*/ + " ögon och " + /*skriv variabel*/ + " hår" );
+console.log("Det här är " + namn + ".");
+console.log(namn + " är " + age + " år");
+console.log(namn + " är " + height + "cm lång." );
+console.log(namn + " väger " + weight + "kg." );
+console.log(namn + " har " + eyes + " ögon och " + hair + " hår" );
 
-console.log("Om vi lägger ihop " + /*skriv variabel*/ + "s ålder vikt och längd får vi " + /*Räkna ihop summan*/);
+console.log("Om vi lägger ihop " + namn + "s ålder vikt och längd får vi " + (age + height + weight));

@@ -8,3 +8,6 @@ uppmuntras för att bolla tankar.
 
 Googla upp den matematiksa formeln som konverterar celcius till farenheit. 
 */
+var celcius = prompt("Type a temperature in celcius.");
+var farenheit = celcius * 1.8 + 32;
+alert("It is " + farenheit + " in farenheit.");
